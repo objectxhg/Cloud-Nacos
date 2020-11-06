@@ -1,0 +1,206 @@
+2020-11-05 11:00:13,064 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 11:03:54,295 INFO DEFAULT_GROUP@@feign-producer is changed, add it to push queue.
+
+2020-11-05 11:04:04,643 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 11:10:08,037 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 11:13:34,070 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:13:49,418 INFO DEFAULT_GROUP@@feign-producer is changed, add it to push queue.
+
+2020-11-05 11:13:49,468 INFO serviceName: DEFAULT_GROUP@@feign-producer changed, schedule push for: 172.20.21.85:58425, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,58425,180188697725400
+
+2020-11-05 11:13:49,469 INFO send udp packet: 172.20.21.85,58425,180188697725400
+
+2020-11-05 11:13:49,477 INFO received ack: {"type": "push-ack", "lastRefTime":"180188697725400", "data":""} from: 172.20.21.85:58425, cost: 8 ms, unacked: 0, total push: 1
+
+2020-11-05 11:14:04,542 INFO DEFAULT_GROUP@@feign-producer is changed, add it to push queue.
+
+2020-11-05 11:14:04,542 INFO serviceName: DEFAULT_GROUP@@feign-producer changed, schedule push for: 172.20.21.85:58425, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,58425,180203821647700
+
+2020-11-05 11:14:04,542 INFO send udp packet: 172.20.21.85,58425,180203821647700
+
+2020-11-05 11:14:04,546 INFO received ack: {"type": "push-ack", "lastRefTime":"180203821647700", "data":""} from: 172.20.21.85:58425, cost: 4 ms, unacked: 0, total push: 2
+
+2020-11-05 11:15:02,529 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 11:15:20,199 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:16:27,775 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 11:18:24,138 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:18:24,138 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:61864, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,61864,180463416625600
+
+2020-11-05 11:18:24,138 INFO send udp packet: 172.20.21.85,61864,180463416625600
+
+2020-11-05 11:18:24,141 INFO received ack: {"type": "push-ack", "lastRefTime":"180463416625600", "data":""} from: 172.20.21.85:61864, cost: 3 ms, unacked: 0, total push: 3
+
+2020-11-05 11:18:28,738 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:18:28,738 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:61864, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,61864,180468016942000
+
+2020-11-05 11:18:28,738 INFO send udp packet: 172.20.21.85,61864,180468016942000
+
+2020-11-05 11:18:28,739 INFO received ack: {"type": "push-ack", "lastRefTime":"180468016942000", "data":""} from: 172.20.21.85:61864, cost: 1 ms, unacked: 0, total push: 4
+
+2020-11-05 11:18:33,740 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:18:33,740 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:61864, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,61864,180473019596500
+
+2020-11-05 11:18:33,740 INFO send udp packet: 172.20.21.85,61864,180473019596500
+
+2020-11-05 11:18:33,741 INFO received ack: {"type": "push-ack", "lastRefTime":"180473019596500", "data":""} from: 172.20.21.85:61864, cost: 1 ms, unacked: 0, total push: 5
+
+2020-11-05 11:20:27,492 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:20:27,492 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:61864, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,61864,180586771597800
+
+2020-11-05 11:20:27,492 INFO send udp packet: 172.20.21.85,61864,180586771597800
+
+2020-11-05 11:20:27,493 INFO received ack: {"type": "push-ack", "lastRefTime":"180586771597800", "data":""} from: 172.20.21.85:61864, cost: 1 ms, unacked: 0, total push: 6
+
+2020-11-05 11:35:16,377 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 11:36:21,140 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:36:21,140 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:51840, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,51840,181540419063900
+
+2020-11-05 11:36:21,140 INFO send udp packet: 172.20.21.85,51840,181540419063900
+
+2020-11-05 11:36:21,142 INFO received ack: {"type": "push-ack", "lastRefTime":"181540419063900", "data":""} from: 172.20.21.85:51840, cost: 2 ms, unacked: 0, total push: 7
+
+2020-11-05 11:45:04,104 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:45:04,104 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:51840, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,51840,182063383365300
+
+2020-11-05 11:45:04,104 INFO send udp packet: 172.20.21.85,51840,182063383365300
+
+2020-11-05 11:45:04,105 INFO received ack: {"type": "push-ack", "lastRefTime":"182063383365300", "data":""} from: 172.20.21.85:51840, cost: 1 ms, unacked: 0, total push: 8
+
+2020-11-05 11:45:11,753 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 11:48:36,904 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 11:50:59,364 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 11:50:59,370 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 14:58:40,739 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:19:09,375 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:21:16,702 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:21:32,040 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:24:24,700 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:25:11,738 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:25:26,746 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:25:50,457 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:26:00,045 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:39:06,139 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:39:24,855 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:39:39,868 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:39:46,177 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:40:37,932 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:42:40,868 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:43:24,894 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:43:25,163 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:60528, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,60528,196364173020800
+
+2020-11-05 15:43:25,164 INFO send udp packet: 172.20.21.85,60528,196364173020800
+
+2020-11-05 15:43:25,252 INFO received ack: {"type": "push-ack", "lastRefTime":"196364173020800", "data":""} from: 172.20.21.85:60528, cost: 88 ms, unacked: 0, total push: 1
+
+2020-11-05 15:43:34,417 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:57:02,101 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:57:10,040 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:57:17,111 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:57:25,063 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:57:49,082 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:57:54,470 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 15:59:12,278 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 15:59:12,278 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:56027, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,56027,197311557145500
+
+2020-11-05 15:59:12,279 INFO send udp packet: 172.20.21.85,56027,197311557145500
+
+2020-11-05 15:59:12,281 INFO received ack: {"type": "push-ack", "lastRefTime":"197311557145500", "data":""} from: 172.20.21.85:56027, cost: 2 ms, unacked: 0, total push: 2
+
+2020-11-05 15:59:36,201 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:00:20,758 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:03:35,143 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 16:03:35,143 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:52134, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,52134,197574422437800
+
+2020-11-05 16:03:35,143 INFO send udp packet: 172.20.21.85,52134,197574422437800
+
+2020-11-05 16:03:37,071 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:03:45,144 INFO retry to push data, key: 172.20.21.85,52134,197574422437800
+
+2020-11-05 16:03:45,144 INFO send udp packet: 172.20.21.85,52134,197574422437800
+
+2020-11-05 16:03:55,146 INFO retry to push data, key: 172.20.21.85,52134,197574422437800
+
+2020-11-05 16:03:55,146 WARN max re-push times reached, retry times 2, key: 172.20.21.85,52134,197574422437800
+
+2020-11-05 16:05:51,644 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:10:16,494 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:17:15,144 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:20:08,488 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:29:11,779 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:32:55,266 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-05 16:32:55,268 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:57828, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,57828,199334545009400
+
+2020-11-05 16:32:55,268 INFO send udp packet: 172.20.21.85,57828,199334545009400
+
+2020-11-05 16:33:05,269 INFO retry to push data, key: 172.20.21.85,57828,199334545009400
+
+2020-11-05 16:33:05,269 INFO send udp packet: 172.20.21.85,57828,199334545009400
+
+2020-11-05 16:33:10,440 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:33:15,271 INFO retry to push data, key: 172.20.21.85,57828,199334545009400
+
+2020-11-05 16:33:15,271 WARN max re-push times reached, retry times 2, key: 172.20.21.85,57828,199334545009400
+
+2020-11-05 16:33:25,481 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:33:27,408 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:34:42,098 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:35:50,478 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-05 16:36:05,503 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+

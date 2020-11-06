@@ -1,0 +1,46 @@
+
+server:
+  port: 8882
+
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: producer-service
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        group: DEFAULT_GROUP
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        sharedConfigs: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+
+    sentinel:
+      eager: true
+      transport:
+        dashboard: 127.0.0.1:8080
+
+  datasource:
+    tomcat-jdbc: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://121.43.158.136:3306/boot?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&autoReconnect=true&useSSL=false
+    username: root
+    password: aaa85444
+
+mybatis:
+  ##\u5B9E\u4F53\u7C7B\u8DEF\u5F84
+  typeAliasesPackage: com.xhg.pojo
+  mapperLocations: classpath:mapper/*.xml
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+

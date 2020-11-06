@@ -1,0 +1,202 @@
+2020-11-06 10:06:32,820 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:06:35,195 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:13:57,817 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:14:00,288 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:14:07,826 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:14:11,832 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:14:12,842 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:14:16,830 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:15:27,871 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:15:27,899 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:57565, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,57565,263090990762299
+
+2020-11-06 10:15:27,899 INFO send udp packet: 172.20.21.85,57565,263090990762299
+
+2020-11-06 10:15:27,903 INFO received ack: {"type": "push-ack", "lastRefTime":"263090990762299", "data":""} from: 172.20.21.85:57565, cost: 4 ms, unacked: 0, total push: 1
+
+2020-11-06 10:15:42,987 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:15:42,988 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:57565, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,57565,263106106322599
+
+2020-11-06 10:15:42,988 INFO send udp packet: 172.20.21.85,57565,263106106322599
+
+2020-11-06 10:15:42,994 INFO received ack: {"type": "push-ack", "lastRefTime":"263106106322599", "data":""} from: 172.20.21.85:57565, cost: 6 ms, unacked: 0, total push: 2
+
+2020-11-06 10:15:52,927 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:15:52,927 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:57565, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,57565,263116046854500
+
+2020-11-06 10:15:52,927 INFO send udp packet: 172.20.21.85,57565,263116046854500
+
+2020-11-06 10:15:52,929 INFO received ack: {"type": "push-ack", "lastRefTime":"263116046854500", "data":""} from: 172.20.21.85:57565, cost: 2 ms, unacked: 0, total push: 3
+
+2020-11-06 10:20:31,932 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:20:31,932 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:57565, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,57565,263395051293700
+
+2020-11-06 10:20:31,932 INFO send udp packet: 172.20.21.85,57565,263395051293700
+
+2020-11-06 10:20:31,935 INFO received ack: {"type": "push-ack", "lastRefTime":"263395051293700", "data":""} from: 172.20.21.85:57565, cost: 3 ms, unacked: 0, total push: 4
+
+2020-11-06 10:30:00,478 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:30:15,483 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:36:04,666 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:47:08,370 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:47:09,782 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:47:23,383 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 10:47:24,787 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 10:48:38,895 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 11:00:19,376 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:03:23,812 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:08:36,562 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-06 11:12:59,535 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:13:14,556 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:14:24,984 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:16:17,276 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:17:32,701 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:18:33,964 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:19:17,508 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:20:51,272 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:21:24,630 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:21:39,637 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:22:55,174 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:23:56,555 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:28:57,869 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-06 11:29:36,861 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-06 11:29:51,876 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-06 11:45:24,929 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:45:39,948 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 11:47:51,170 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-06 11:49:41,285 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-06 14:37:53,071 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-06 14:38:08,080 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-06 14:38:11,950 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 14:42:46,146 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 14:42:46,146 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:54939, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,54939,279129265708900
+
+2020-11-06 14:42:46,147 INFO send udp packet: 172.20.21.85,54939,279129265708900
+
+2020-11-06 14:42:46,226 INFO received ack: {"type": "push-ack", "lastRefTime":"279129265708900", "data":""} from: 172.20.21.85:54939, cost: 79 ms, unacked: 0, total push: 5
+
+2020-11-06 14:43:01,151 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 14:43:01,151 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:54939, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,54939,279144271161200
+
+2020-11-06 14:43:01,151 INFO send udp packet: 172.20.21.85,54939,279144271161200
+
+2020-11-06 14:43:01,155 INFO received ack: {"type": "push-ack", "lastRefTime":"279144271161200", "data":""} from: 172.20.21.85:54939, cost: 4 ms, unacked: 0, total push: 6
+
+2020-11-06 14:45:42,182 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 14:46:19,733 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 14:46:19,798 INFO serviceName: DEFAULT_GROUP@@producer-service changed, schedule push for: 172.20.21.85:54939, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,54939,279342852724200
+
+2020-11-06 14:46:19,798 INFO send udp packet: 172.20.21.85,54939,279342852724200
+
+2020-11-06 14:46:19,799 INFO received ack: {"type": "push-ack", "lastRefTime":"279342852724200", "data":""} from: 172.20.21.85:54939, cost: 1 ms, unacked: 0, total push: 7
+
+2020-11-06 14:56:26,245 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-06 14:56:32,169 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 14:56:47,218 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 14:58:11,066 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-06 14:59:06,281 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-06 14:59:21,300 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-06 15:01:18,865 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:01:48,716 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:02:03,734 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:04:08,463 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:05:48,771 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:05:57,733 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:06:02,748 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:07:53,436 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:08:48,804 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:09:03,845 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:12:07,002 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:14:27,419 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:26:00,373 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:33:47,732 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:38:30,470 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:50:39,057 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:54:52,509 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 15:55:07,553 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 16:02:21,737 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 16:06:53,707 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 16:08:06,969 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 16:25:47,024 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 16:26:02,034 INFO DEFAULT_GROUP@@consumer-sentinel is changed, add it to push queue.
+
+2020-11-06 16:26:33,537 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+
+2020-11-06 16:26:48,549 INFO DEFAULT_GROUP@@producer-service is changed, add it to push queue.
+

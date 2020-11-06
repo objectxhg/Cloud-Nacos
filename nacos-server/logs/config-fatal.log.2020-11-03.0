@@ -1,0 +1,18 @@
+2020-11-03 11:26:38,242 WARN isQuickStart:false
+
+2020-11-03 11:26:38,385 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_beta limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;
+
+2020-11-03 11:26:38,386 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_tag limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;
+
+2020-11-03 15:31:56,802 WARN isQuickStart:false
+
+2020-11-03 15:31:57,036 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_beta limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;
+
+2020-11-03 15:31:57,037 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_tag limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;
+
+2020-11-03 18:23:27,180 WARN isQuickStart:false
+
+2020-11-03 18:23:27,373 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_beta limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;
+
+2020-11-03 18:23:27,374 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_tag limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;
+

@@ -1,0 +1,33 @@
+
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: config
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+      config:
+        group: DEFAULT_GROUP
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        sharedConfigs: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+
+#Data ID: ${prefix} - ${spring.profiles.active} . ${file-extension}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8881
+
+user:
+  userName: jeker
+  age: 18

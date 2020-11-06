@@ -1,0 +1,49 @@
+
+server:
+  port: 8883
+
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: consumer-sentinel
+
+  cloud:
+    # startup.cmd -m standalone
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848  #配置注册中心的位置，也就是nacos的地址
+      config:
+        group: DEFAULT_GROUP
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        #sharedConfigs: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+
+    #取消sentinel控制台的懒加载 启动sentinel服务时  java -Dserver.port=8080 --spring.cloud.sentinel.eager=true
+    sentinel:
+      enabled: true
+      datasource:
+        ds:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            group-id: DEFAULT_GROUP
+            data-id: sentinel-config
+            data-type: json
+            rule-type: flow
+
+      eager: true
+      transport:
+        dashboard: 127.0.0.1:8080
+
+feign:
+  sentinel:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+

@@ -1,0 +1,86 @@
+2020-11-04 10:11:10,026 INFO DEFAULT_GROUP@@nacos-config is changed, add it to push queue.
+
+2020-11-04 10:21:27,070 INFO DEFAULT_GROUP@@nacos-config is changed, add it to push queue.
+
+2020-11-04 10:22:00,569 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 10:22:09,965 INFO DEFAULT_GROUP@@nacos-config is changed, add it to push queue.
+
+2020-11-04 10:22:25,109 INFO DEFAULT_GROUP@@nacos-config is changed, add it to push queue.
+
+2020-11-04 10:25:29,568 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 10:25:35,336 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 10:26:40,352 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 10:26:55,360 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 10:26:58,293 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 10:28:20,372 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 10:28:35,378 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 10:42:15,588 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 10:46:30,046 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 11:11:40,916 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 11:13:07,589 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 11:16:25,807 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 11:17:00,364 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 11:19:56,019 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 11:20:11,028 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 11:21:51,277 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 11:22:06,284 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 11:23:33,443 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 11:23:56,305 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 11:24:11,318 INFO DEFAULT_GROUP@@config is changed, add it to push queue.
+
+2020-11-04 14:38:50,878 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 14:40:16,914 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 14:44:39,405 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 14:45:35,906 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 14:45:50,916 INFO DEFAULT_GROUP@@consumer is changed, add it to push queue.
+
+2020-11-04 15:18:19,523 INFO DEFAULT_GROUP@@service-consumer is changed, add it to push queue.
+
+2020-11-04 15:19:09,519 INFO DEFAULT_GROUP@@service-consumer is changed, add it to push queue.
+
+2020-11-04 15:19:10,176 INFO DEFAULT_GROUP@@feign-producer is changed, add it to push queue.
+
+2020-11-04 15:19:15,614 INFO DEFAULT_GROUP@@service-consumer is changed, add it to push queue.
+
+2020-11-04 15:19:24,539 INFO DEFAULT_GROUP@@service-consumer is changed, add it to push queue.
+
+2020-11-04 15:59:50,599 INFO DEFAULT_GROUP@@feign-producer is changed, add it to push queue.
+
+2020-11-04 15:59:50,932 INFO serviceName: DEFAULT_GROUP@@feign-producer changed, schedule push for: 172.20.21.85:54453, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,54453,110946461855500
+
+2020-11-04 15:59:50,932 INFO send udp packet: 172.20.21.85,54453,110946461855500
+
+2020-11-04 15:59:51,021 INFO received ack: {"type": "push-ack", "lastRefTime":"110946461855500", "data":""} from: 172.20.21.85:54453, cost: 89 ms, unacked: 0, total push: 1
+
+2020-11-04 16:00:05,635 INFO DEFAULT_GROUP@@feign-producer is changed, add it to push queue.
+
+2020-11-04 16:00:05,636 INFO serviceName: DEFAULT_GROUP@@feign-producer changed, schedule push for: 172.20.21.85:54453, agent: Nacos-Java-Client:v1.3.3, key: 172.20.21.85,54453,110961473477400
+
+2020-11-04 16:00:05,636 INFO send udp packet: 172.20.21.85,54453,110961473477400
+
+2020-11-04 16:00:05,643 INFO received ack: {"type": "push-ack", "lastRefTime":"110961473477400", "data":""} from: 172.20.21.85:54453, cost: 7 ms, unacked: 0, total push: 2
+

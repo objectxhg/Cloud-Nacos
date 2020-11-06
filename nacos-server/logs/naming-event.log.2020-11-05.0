@@ -1,0 +1,162 @@
+2020-11-05 11:00:12,061 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 11:00:12,063 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 11:03:53,294 INFO DEFAULT_GROUP@@feign-producer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8882:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 11:03:53,294 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign-producer, ips: 172.20.21.85:8882_true,
+
+2020-11-05 11:04:03,642 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 11:10:07,037 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 11:13:33,069 INFO DEFAULT_GROUP@@producer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8882:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 11:13:33,069 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 11:13:48,417 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8882@DEFAULT@DEFAULT_GROUP@@feign-producer, region: unknown, msg: client timeout after 15000, last beat: 1604546008904
+
+2020-11-05 11:14:03,541 INFO DEFAULT_GROUP@@feign-producer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.21.85:8882:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-05 11:14:03,541 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign-producer, ips: 
+
+2020-11-05 11:15:01,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 11:15:19,198 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 11:16:26,773 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 11:18:23,136 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8882@DEFAULT@DEFAULT_GROUP@@producer-service, region: unknown, msg: client timeout after 15000, last beat: 1604546284336
+
+2020-11-05 11:18:27,737 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_false,
+
+2020-11-05 11:18:32,740 INFO service: DEFAULT_GROUP@@producer-service {POS} {IP-ENABLED} valid: 172.20.21.85:8882@DEFAULT, region: unknown, msg: client beat ok
+
+2020-11-05 11:20:26,491 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 11:35:15,376 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 11:36:20,139 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 11:45:03,102 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 11:45:10,751 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 11:48:35,901 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 11:50:19,827 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2020-11-05 11:50:58,355 INFO DEFAULT_GROUP@@producer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8882:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 11:50:58,362 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 11:50:58,365 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 11:50:58,365 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 14:58:39,737 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:19:08,374 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:21:15,701 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8883@DEFAULT@DEFAULT_GROUP@@consumer-sentinel, region: unknown, msg: client timeout after 15000, last beat: 1604560858496
+
+2020-11-05 15:21:31,039 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-05 15:21:31,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 
+
+2020-11-05 15:24:23,699 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 15:24:23,699 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:25:10,737 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8882@DEFAULT@DEFAULT_GROUP@@producer-service, region: unknown, msg: client timeout after 15000, last beat: 1604561092150
+
+2020-11-05 15:25:25,745 INFO DEFAULT_GROUP@@producer-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.21.85:8882:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-05 15:25:25,745 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 
+
+2020-11-05 15:25:49,456 INFO DEFAULT_GROUP@@producer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8882:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 15:25:49,456 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 15:25:59,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:39:05,136 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:39:23,854 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8883@DEFAULT@DEFAULT_GROUP@@consumer-sentinel, region: unknown, msg: client timeout after 15000, last beat: 1604561945135
+
+2020-11-05 15:39:38,867 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-05 15:39:38,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 
+
+2020-11-05 15:39:45,176 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 15:40:36,930 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 15:40:36,930 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:42:39,866 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:43:23,892 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 15:43:33,415 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:57:01,099 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8882@DEFAULT@DEFAULT_GROUP@@producer-service, region: unknown, msg: client timeout after 15000, last beat: 1604563004742
+
+2020-11-05 15:57:09,040 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8883@DEFAULT@DEFAULT_GROUP@@consumer-sentinel, region: unknown, msg: client timeout after 15000, last beat: 1604563009715
+
+2020-11-05 15:57:16,110 INFO DEFAULT_GROUP@@producer-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.21.85:8882:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-05 15:57:16,110 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 
+
+2020-11-05 15:57:24,063 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-05 15:57:24,063 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 
+
+2020-11-05 15:57:48,081 INFO DEFAULT_GROUP@@producer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8882:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 15:57:48,081 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 15:57:53,468 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 15:57:53,469 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 15:59:11,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 15:59:35,200 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:00:19,757 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:03:34,142 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 16:03:36,071 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:05:50,644 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:10:15,492 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:17:14,142 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:20:07,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:29:10,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:32:54,264 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@producer-service, ips: 172.20.21.85:8882_true,
+
+2020-11-05 16:33:09,439 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8883@DEFAULT@DEFAULT_GROUP@@consumer-sentinel, region: unknown, msg: client timeout after 15000, last beat: 1604565171247
+
+2020-11-05 16:33:24,480 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-05 16:33:24,480 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 
+
+2020-11-05 16:33:26,408 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-05 16:33:26,408 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:34:41,096 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 172.20.21.85:8883_true,
+
+2020-11-05 16:35:49,477 INFO {POS} {IP-DISABLED} valid: 172.20.21.85:8883@DEFAULT@DEFAULT_GROUP@@consumer-sentinel, region: unknown, msg: client timeout after 15000, last beat: 1604565331185
+
+2020-11-05 16:36:04,502 INFO DEFAULT_GROUP@@consumer-sentinel {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.21.85:8883:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-05 16:36:04,502 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-sentinel, ips: 
+
