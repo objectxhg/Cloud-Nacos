@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @create 2020/11/4 10:44
  */
 @RestController
-//@RequestMapping("/consumer")
+@RequestMapping("/consumer")
 public class UserController {
 
     @Autowired
@@ -47,7 +47,7 @@ public class UserController {
         return consumerFeign.hello(id);
     }
 
-//    @SentinelResource(value = "test", blockHandler = "testHandleException", blockHandlerClass = {HanlderExpection.class}, fallback = "testFallback")
+    @SentinelResource(value = "test", blockHandler = "testHandleException", blockHandlerClass = {HanlderExpection.class}, fallback = "testFallback")
     @RequestMapping("/test")
     public String testDemo(){
 
