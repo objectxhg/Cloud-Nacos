@@ -24,12 +24,18 @@ spring:
     sentinel:
       enabled: true
       datasource:
-        ds:
+        ds1:
           nacos:
             server-addr: 127.0.0.1:8848
-            data-id: sentinel-config
+            data-id: sentinel-flow
             data-type: json
-            rule-type: flow
+            rule-type: flow #流控
+        ds2:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            data-id: sentinel-degrade
+            data-type: json
+            rule-type: degrade #降级
 
       eager: true
       transport:

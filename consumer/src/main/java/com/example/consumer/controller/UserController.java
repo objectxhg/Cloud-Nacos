@@ -33,6 +33,10 @@ public class UserController {
      *
      * fallback 管理 java运行异常
      *
+     * 以下限流，降级规则使用sentinel控制台和Nacos自动化配置
+     *
+     * 代码配置请看其他示例：https://github.com/GenshenWang/sentinel-demo
+     *
      */
     @SentinelResource(value = "hello", blockHandler = "helloHandleException", blockHandlerClass = {HanlderExpection.class}, fallback = "helloFallback")
     @RequestMapping("/hello")
@@ -47,13 +51,35 @@ public class UserController {
         return consumerFeign.hello(id);
     }
 
+    /**
+     *
+     * 持久化流控规则
+     */
     @SentinelResource(value = "test", blockHandler = "testHandleException", blockHandlerClass = {HanlderExpection.class}, fallback = "testFallback")
     @RequestMapping("/test")
-    public String testDemo(){
+    public String test(){
 
         return consumerFeign.test();
     }
 
+    /**
+     *
+     * 流控规则，已持久化到Nacos
+     */
+    @SentinelResource(value = "demo", blockHandler = "degradeException", blockHandlerClass = {HanlderExpection.class}, fallback = "demoFallback")
+    @RequestMapping("/demo")
+    public String demo(@RequestParam Integer id){
+
+        if(id == 0){
+            throw new RuntimeException(" 出异常了 !!!");
+        }
+
+        return "demo ";
+    }
+
+    /**
+     * 不稳定的资源进行熔断降级
+     */
     public String helloFallback(@RequestParam String id){
 
         System.out.println("msg: helloFallback");
@@ -64,6 +90,12 @@ public class UserController {
 
         System.out.println("msg: testFallback");
         return "msg: testFallback ";
+    }
+
+    public String demoFallback(@RequestParam Integer id){
+
+        System.out.println("msg: demoFallback");
+        return "msg: demoFallback ";
     }
 
 }
