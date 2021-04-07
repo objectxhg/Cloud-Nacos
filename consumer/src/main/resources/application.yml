@@ -20,7 +20,7 @@ spring:
         file-extension: yml
         #sharedConfigs: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
 
-    #取消sentinel控制台的懒加载 启动sentinel服务时  java -Dserver.port=8080 --spring.cloud.sentinel.eager=true
+    #取消sentinel控制台的懒加载 启动sentinel服务时  java -jar xxx.jar Dserver.port=8080 --spring.cloud.sentinel.eager=true
     sentinel:
       enabled: true
       datasource:
