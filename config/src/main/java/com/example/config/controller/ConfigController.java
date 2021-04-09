@@ -1,5 +1,6 @@
 package com.example.config.controller;
 
+import com.alibaba.nacos.api.config.annotation.NacosValue;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,10 +20,10 @@ public class ConfigController {
     private boolean useLocalCache;
 
     @Value("${user.userName}")
-    String userName;
+    private String userName;
 
     @Value("${user.age}")
-    int age;
+    private int age;
 
     @RequestMapping("/user")
     public String getUser() {
@@ -33,7 +34,5 @@ public class ConfigController {
     public boolean get() {
         return useLocalCache;
     }
-
-
 }
 

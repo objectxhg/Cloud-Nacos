@@ -1,11 +1,9 @@
 
 spring:
-  profiles:
-    active: dev
-
   application:
     name: config
-
+  profiles:
+    active: dev
   cloud:
     nacos:
       discovery:
@@ -17,7 +15,8 @@ spring:
         file-extension: yml
         sharedConfigs: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
 
-#Data ID: ${prefix} - ${spring.profiles.active} . ${file-extension}
+#Data ID: prefix - ${spring.profiles.active} . ${file-extension}
+#prefix 默认为 spring.application.name 的值，也可以通过配置项 spring.cloud.nacos.config.prefix来配置。
 
 management:
   endpoints:
